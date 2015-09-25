@@ -302,6 +302,10 @@ footer {
 	width: 100%;
 }
 
+.project-portfolio-logo {
+	height: 300px;
+	width: 300px;
+}
 
 .project1-videoapp {
 	max-width: 350px;
