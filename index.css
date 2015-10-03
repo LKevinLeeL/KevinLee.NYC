@@ -409,7 +409,7 @@ footer {
 	text-decoration: none;
 	position:fixed;
 	top:90%;
-	right:5%;
+	right:3%;
 	display:none;
 }
 .scrollToTop:hover{
@@ -712,7 +712,9 @@ color: #bcbcbc;
 	margin-bottom: auto;
 
 
-}
+	}
+
+
 }
 
 
@@ -732,6 +734,9 @@ color: #bcbcbc;
 	.portfolioopcontent .contentboxo .info {
 	font-size: 1.2em;
 	}
+	.fa {
+		display: none;
+	}
 }
 
 
@@ -745,6 +750,9 @@ width: 90%;
 	}
 
 #video-background {
+		display: none;
+	}
+	.fa {
 		display: none;
 	}
 
@@ -767,7 +775,9 @@ width: 90%;
 	#video-background {
 		display: none;
 	}
-
+	.fa {
+		display: none;
+	}
 
 }
 
