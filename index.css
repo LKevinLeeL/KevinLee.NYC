@@ -697,21 +697,25 @@ color: #bcbcbc;
 
 
 @media screen and (max-width: 2000px), screen and (max-device-width: 2000px) {
-.portfolioop {
-height: auto;
-}
+	.portfolioop {
+	height: auto;
+	}
 
-
+	#video-background {
+		display: none;
+	}
 
 
 
 }
 @media screen and (max-width: 1440px), screen and (max-device-width: 1400px) {
+	#video-background {
+		display: none;
+	}
 
-
-.portfolioopcontent {
-margin: 3.5% auto;
-margin-bottom: auto;
+	.portfolioopcontent {
+	margin: 3.5% auto;
+	margin-bottom: auto;
 
 
 }
@@ -722,17 +726,18 @@ margin-bottom: auto;
 @media screen and (max-width: 1000px), screen and (max-device-width: 1000px) {
 
 
-.portfolioopcontent {
-margin: 6% auto;
-margin-bottom: auto;
-}
+	.portfolioopcontent {
+	margin: 6% auto;
+	margin-bottom: auto;
+	}
+	
+	#video-background {
+		display: none;
+	}
 
-
-.portfolioopcontent .contentboxo .info {
-font-size: 1.2em;
-
-
-}
+	.portfolioopcontent .contentboxo .info {
+	font-size: 1.2em;
+	}
 }
 
 
@@ -743,24 +748,31 @@ font-size: 1.2em;
 float: none;
 margin: 4% auto;
 width: 90%;
+	}
+
+#video-background {
+		display: none;
+	}
 
 
-}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
 
 
-.portfolioop {
-height: auto;
-}
-.portfolioopcontent .contentboxo {
-padding: 2em;
-width: 32%;
-}
-.portfolioopcontent .clearfix {
-clear: none;
-}
+	.portfolioop {
+	height: auto;
+	}
+	.portfolioopcontent .contentboxo {
+	padding: 2em;
+	width: 32%;
+	}
+	.portfolioopcontent .clearfix {
+	clear: none;
+	}
+	#video-background {
+		display: none;
+	}
 
 
 }
