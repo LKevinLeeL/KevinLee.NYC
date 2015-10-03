@@ -190,16 +190,7 @@ footer {
 	
 }
 
-/*.text-about-me h3 {
-	font-family: "Avenir Next";
-	text-transform: uppercase;
-	font-weight: 100;
-	font-size: 1em;
-	letter-spacing: 2px;
-	font-style: italic;*/
 
-	
-}
 
 .text-about-me p {
 	font-family: "Avenir Next";
@@ -284,63 +275,7 @@ footer {
 
 }
 
-.all-project p {
-	text-align: left;
-	font-size: 1em;
-	color: white;
-	font-weight: 300;
-	letter-spacing: 2px;
-	
-}
 
-.project-portfolio {
-	max-width: auto;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
-
-.project-portfolio-logo {
-	height: 300px;
-	width: 300px;
-}
-
-.project1-videoapp {
-	max-width: 350px;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
-
-.project2-ms-home {
-	max-width: 160px;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
-
-.project3-ms-disability {
-	max-width: 160px;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
-.project4-invision-menu {
-	max-width: auto;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
 
 /*PROJECT SECTION END*/
 
@@ -624,21 +559,6 @@ footer {
 	.hr-projects{
 		width: 95%;
 	}
-	.project-portfolio{
-		max-width: 350px;
-	}
-	.project1-videoapp {
-		max-width: 300px;
-	}
-	.project2-ms-home {
-		max-width: 150px;
-	}
-	.project3-ms-disability {
-		max-width: 150px;
-	}
-	.project4-invision-menu {
-		max-width: 360px;
-	}
 
 /*SCROLLTOTOP BUTTON*/
 	.fa{
@@ -666,3 +586,166 @@ footer {
 		display: none;
 	}*/
 }
+
+
+
+
+
+/*GRID*/
+
+.portfolioop-banner {
+	background-image: url("../images/sm.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	font-family: 'Lato',sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	overflow: hidden;
+	padding: 2.8em 0;
+	text-align: center;
+	width: 100%;
+}
+.portfolioop {
+
+
+display: block;
+height: 100%;
+overflow: hidden;
+position: relative;
+}
+.portfolioopcontent {
+display: block;
+margin: 0 auto;
+max-width: 1200px;
+overflow: hidden;
+width: 100%;
+}
+.portfolioopcontent .contentboxo {
+float: left;
+margin: 1%;
+overflow: hidden;
+padding: 0;
+position: relative;
+transition: all 0.6s ease 0s;
+width: 31.3%;
+border-radius: 2px;
+box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.094), 0 1.5px 1.5px 0 rgba(0, 0, 0, 0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1);
+}
+.portfolioopcontent .contentboxo .infono {
+background-color: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+color: white;
+display: block;
+font-family: 'lato',sans-serif;
+font-size: 1.4em;
+font-weight: normal;
+height: 100%;
+left: 0;
+line-height: 1em;
+opacity: 0;
+padding-top: 17%;
+position: absolute;
+text-align: center;
+top: 0;
+transition: all 0.6s ease 0s;
+width: 100%;
+z-index: 400;
+}
+.portfolioopcontent .contentboxo:hover .infono {
+opacity: 1;
+}
+.portfolioopcontent .contentboxo img.overlayo {
+display: block;
+margin: 0 auto;
+position: relative;
+transition: opacity 0.6s ease 0s;
+width: 100%;
+z-index: 500;
+}
+.portfolioopcontent .contentboxo:hover img.overlayo {
+opacity: 0.2;
+}
+.highlight {
+color: #69BDB2;
+font-size: 0.8em;
+font-weight: 300;
+}
+.colorhighlight {
+color: #69BDB2;
+}
+
+
+@media screen and (max-width: 2000px), screen and (max-device-width: 2000px) {
+.portfolioop {
+height: auto;
+}
+
+
+
+
+
+}
+@media screen and (max-width: 1440px), screen and (max-device-width: 1400px) {
+
+
+.portfolioopcontent {
+margin: 3.5% auto;
+
+
+}
+}
+
+
+
+@media screen and (max-width: 1000px), screen and (max-device-width: 1000px) {
+
+
+.portfolioopcontent {
+margin: 6% auto;
+}
+
+
+.portfolioopcontent .contentboxo .info {
+font-size: 1.2em;
+
+
+}
+}
+
+
+@media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+
+
+.portfolioopcontent .contentboxo {
+float: none;
+margin: 4% auto;
+width: 90%;
+
+
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+
+
+.portfolioop {
+height: auto;
+}
+.portfolioopcontent .contentboxo {
+padding: 2em;
+width: 32%;
+}
+.portfolioopcontent .clearfix {
+clear: none;
+}
+
+
+}
+
+
+
+
+
+
+
