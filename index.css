@@ -701,17 +701,11 @@ color: #bcbcbc;
 	height: auto;
 	}
 
-	#video-background {
-		display: none;
-	}
-
 
 
 }
 @media screen and (max-width: 1440px), screen and (max-device-width: 1400px) {
-	#video-background {
-		display: none;
-	}
+
 
 	.portfolioopcontent {
 	margin: 3.5% auto;
