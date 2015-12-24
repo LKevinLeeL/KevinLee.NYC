@@ -69,13 +69,8 @@ footer {
 }
 
 .welcome {
-	background-image: url('img/iphone.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
 	height: 100%;
 	overflow: hidden;
-
 }
 
 .Kevin {
@@ -520,6 +515,14 @@ footer {
 	.Kevin {
 		padding-top: 35%;
 	}
+  .welcome {
+  	background-image: url('img/nyc-still-bg.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	height: 100%;
+  	overflow: hidden;
+  }
 
 	#video-background {
 		display: none;
@@ -686,12 +689,28 @@ color: #bcbcbc;
 	.portfolioop {
 	height: auto;
 	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 1440px), screen and (max-device-width: 1400px) {
 	.portfolioopcontent {
 	margin: 3.5% auto;
 	margin-bottom: auto;
 	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 
@@ -710,6 +729,14 @@ color: #bcbcbc;
 	.fa {
 		display: none;
 	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 600px), screen and (max-device-width: 600px) {
@@ -720,6 +747,14 @@ float: none;
 margin: 4% auto;
 width: 90%;
 	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
 
 #video-background {
 		display: none;
@@ -750,5 +785,13 @@ width: 90%;
 	.fa {
 		display: none;
 	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
 
 }
