@@ -105,6 +105,9 @@ footer {
 	width: 45px;
 	height: 45px;
 }
+.social a {
+  cursor: pointer;
+}
 
 .position {
 	font-size: 20px;
