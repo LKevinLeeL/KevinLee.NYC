@@ -83,7 +83,7 @@ footer {
 
 .name {
 	font-size: 70px;
-  	font-family: "Avenir Next";
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   	text-transform: uppercase;
   	font-weight: 200;
   	text-align: center;
@@ -106,7 +106,7 @@ footer {
 
 .position {
 	font-size: 20px;
-  	font-family: "Avenir Next";
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   	text-transform: uppercase;
   	font-weight: 300;
   	text-align: center;
@@ -117,7 +117,7 @@ footer {
 }
 
 .scroll-down  {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-size: 15px;
 	text-align: center;
@@ -137,7 +137,7 @@ footer {
 .scroll-down-text {
 	font-size: 1rem;
 	color: white;
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-size: 15px;
 	text-align: center;
@@ -172,7 +172,7 @@ footer {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 }
 
 .hr-aboutme {
@@ -183,7 +183,7 @@ footer {
 
 
 .text-about-me h1 {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 2em;
@@ -191,7 +191,7 @@ footer {
 	color: white;
 }
 .text-about-me h2 {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	/*font-weight: bold;*/
@@ -204,7 +204,7 @@ footer {
 
 
 .text-about-me p {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	font-size: 1em;
 	letter-spacing: 1px;
@@ -238,7 +238,7 @@ footer {
 	background: -ms-linear-gradient( -90deg, #6a7c8c 10%, #485563 60%);
 	background: -o-linear-gradient( -90deg, #6a7c8c 10%, #485563 60%);*/
 	color: white;
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-align: center;
 }
 
@@ -250,7 +250,7 @@ footer {
 	padding-top: 25px;
 	padding-bottom: 10px;
 	text-align: center;
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 2em;
@@ -260,7 +260,7 @@ footer {
 }
 
 .all-project {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	/*text-transform: uppercase;*/
 	font-weight: 100;
 	font-size: 1em;
@@ -279,7 +279,7 @@ footer {
 }
 
 .all-project h2 {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 1.5em;
@@ -309,14 +309,14 @@ footer {
 	margin: 0;
 	color: white;
 	font-size: 50px;
-  	font-family: "Avenir Next";
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   	text-transform: uppercase;
   	font-weight: 100;
 }
 .get-in-touch h2 {
 	color: white;
 	font-size: 20px;
-  	font-family: "Avenir Next";
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   	text-transform: uppercase;
   	font-weight: 100;
   	font-style: italic;
@@ -327,7 +327,7 @@ footer {
 .get-in-touch h2 a {
 	color: white;
 	font-size: 20px;
-  	font-family: "Avenir Next";
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   	text-transform: uppercase;
   	font-weight: 100;
   	font-style: italic;
@@ -343,7 +343,7 @@ footer {
 .created {
 	color: white;
 	font-size: 12px;
-  	font-family: "Avenir Next";
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   	text-transform: uppercase;
   	font-weight: 100;
   	line-height: 200%;
@@ -437,7 +437,7 @@ footer {
 .popLeftMenu h3 {
 	display: block;
 	color: white;
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	font-size: 1.50em;
 	text-decoration: none;
 	text-align: center;
@@ -455,7 +455,7 @@ footer {
 .popLeftMenu a {
 	display: block;
 	color: white;
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
 	font-size: 1em;
 	text-decoration: none;
 	padding: 5%;
